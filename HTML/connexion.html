@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Conexion</title>
+    <link rel="stylesheet" type="text/css" href="../CSS/style.css">
+    <link rel="stylesheet" type="text/css" href="../CSS/bootstrap.min.css">
+</head>
+
+<body>
+    <div class="container-fluid cont-menu">
+        <div class="row menu  menu-complet">
+            <div class="cont-logo">
+                <a href="../index.html"> <img id="logo" alt="Logo" src="../img/logo3.png"></a>
+                <span class="nom-syndicat">
+                    ASEU
+                </span>
+            </div>
+            <div class="col-md">
+                <div class="row items-menu">
+                    <div class="col-md">
+                        <span class="elem-menu">
+                            <a href="../HTML/publications.html">Publications</a>
+                        </span>
+                    </div>
+                    <div class="col-md">
+                        <span class="elem-menu">
+                            <a href="../HTML/connexion.html">Connexion</a>
+                        </span>
+                    </div>
+                    <div class="col-md">
+                        <span class="elem-menu">
+                            <a href="../HTML/revindications.html">Revendications</a>
+                        </span>
+                    </div>
+                    <div class="col-md">
+                        <span class="elem-menu">
+                            <a href="../HTML/negociations.html">Negociations</a>
+                        </span>
+                    </div>
+                    <div class="col-md">
+                        <span class="elem-menu">
+                            <a href="../HTML/contact.html">Contact</a>
+                        </span>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-1">
+                <span class="elem-menu">
+                    <a href="../HTML/version_anglaise.html">
+                        EN
+                    </a>
+                </span>
+            </div>
+        </div>
+        <div class="row menu menu-minimal">
+            <div class="cont-logo">
+                <a href="../index.html"> <img id="logo" alt="Logo" src="../img/logo3.png"></a>
+                <span class="nom-syndicat">
+                    ASEU
+                </span>
+            </div>
+            <div class="cont-menu-minim">
+                <button class="btn-menu-min">
+                    <img id="menu-minim" alt="Menu abregé" src="../img/sandwich.png">
+                </button>
+                <div class="liens-menu-min">
+                    <a href="../HTML/publications.html">Publications</a>
+                    <a href="../HTML/connexion.html">Connexion</a>
+                    <a href="../HTML/revindications.html">Revendications</a>
+                    <a href="../HTML/negociations.html">Negociations</a>
+                    <a href="../HTML/contact.html">Contact</a>
+                </div>
+            </div>
+            <div class="cont-langue-minim">
+                <a href="../HTML/version_anglaise.html">
+                    EN
+                </a>
+            </div>
+        </div>
+    </div>
+	<h2 class="styleDeTitre">Connexion</h2>
+	<div id="conexionDivPrincipale"> 
+		<div class="container">
+
+			<form class="form-horizontal" action="../HTML/formulaires.html">
+				<div class="form-group">
+					<label for="usernameid" class="control-label col-sm-3 col-sm-push-3">Username</label>
+					<div class="col-sm-3 col-sm-push-3">
+						<input name="username" type="text" id="usernameid" pattern="[a-z]{5,8}[0-9]{2}" maxlength="10"
+							minlength="7" class="form-control" required="required" placeholder="5 à 8 lettres de l’alphabet latin en minuscules, suivies exactement
+          de 2 chiffres arabes">
+					</div>
+				</div>
+				<div class="form-group">
+					<label for="passwordid" class="control-label col-sm-3 col-sm-push-3">Password</label>
+					<div class="col-sm-3 col-sm-push-3">
+						<input name="password" type="password" id="password" class="form-control"
+							pattern="[A-Za-z0-9*?+-]{8,12}" required="required" maxlength="12" minlength="8"
+							placeholder="8 à 12 caractères alphanumériques">
+					</div>
+				</div>
+				<div class="form-group">
+					<div class="col-sm-1 col-sm-push-8">
+						<input type="submit" value="OK" class="btn btn-primary">
+					</div>
+					<div class="col-sm-1 col-sm-push-8">
+						<input type="reset" value="ANNULER" class="btn btn-danger">
+					</div>
+				</div>
+				<p>Instruction:
+					Username: 5 à 8 lettres de l’alphabet latin en minuscules, suivies exactement
+					de 2 chiffres arabe
+					<br>
+					MotPas:"8 à 12 caractères alphanumériques"
+				</p>
+			</form>
+		</div>
+	</div>
+<!--	<p class="boiteContact">
+
+	</p>-->
+	
+
+	
+
+
+	<footer>
+		<div class="row cont-pied-page">
+			<div class="col-md-6">
+				<div>
+					<h2 class="titre-pied-page">Information du site</h2>
+				</div>
+				<div class="info-cours-pied-page">
+					Ce site est développé dans le cadre du cours
+					<a class="lien-pied-page" href="https://etudier.uqam.ca/cours?sigle=INF3190" target="_blank">
+						INF3190
+					</a>
+					à l'
+					<a class="lien-pied-page" href="https://uqam.ca/">
+						UQAM
+					</a>
+				</div>
+			</div>
+			<div class="col-md-6 info-dev-pied-page">
+				<h2 class="titre-pied-page">Développeurs</h2>
+				<div class="haut-dev">
+					<img class="img-enveloppe" src="../img/contact.png" alt="Courriel Luis Alberto Pulache">
+					<span>
+						<a class="lien-pied-page" href="mailto:luispul@hotmail.com">
+							Luis Alberto Pulache
+						</a>
+					</span>
+				</div>
+				<div>
+					<img class="img-enveloppe" src="../img/contact.png" alt="Courriel César Augusto Moreno Agudelo">
+					<span>
+						<a class="lien-pied-page" href="mailto:cesargon@gmails.com">
+							César Augusto Moreno Agudelo
+						</a>
+					</span>
+				</div>
+			</div>
+		</div>
+	</footer>
+</body>
+
+</html>
