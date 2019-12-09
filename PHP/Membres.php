@@ -8,7 +8,6 @@ require 'head.php';
 			  <form action="../PHP/registreTableMembres.php" method="POST" enctype="multipart/form-data">
 			  <h2><em>Formulaire Table Membres</em></h2>  
 				  
-
 				    <div class="form-group">
 					<label for="prenom" class="control-label col-sm-3 col-sm-push-3">Prenom</label>
 					<div class="col-sm-3 col-sm-push-3">
@@ -53,7 +52,6 @@ require 'head.php';
 			</div>
 		</div>
 		</div>
-
 
 <?php 
 require 'tail.php';

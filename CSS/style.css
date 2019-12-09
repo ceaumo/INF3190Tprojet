@@ -356,7 +356,6 @@ div.cont-langue-minim>a:hover {
 
 
 /*Cesar -------------------------------------*/
-
 .styled {
   border: 0;
   line-height: 2.5;
@@ -485,7 +484,111 @@ h2.titre-liens-articles {
 
 }
 
-/*Comexion              */
+/*Comexion          
+
+liste{
+  width: 500px;
+  left: 150px;
+  position:absolute;
+  background-color: #bb4a4a;
+}
+cause{
+  width: 400px;
+  color:blue;
+  font-size:20pt;
+  background-color: #b10e0e;
+  margin:5px;
+}
+date_debut{
+  width: 400px;
+  color:rgb(32, 190, 85);
+  font-size:20pt;
+  background-color: #b10e0e;
+  margin:5px;
+}
+date_fin{
+  width: 400px;
+  color:rgb(46, 46, 204);
+  font-size:20pt;
+  background-color: #dcf377;
+  margin:5px;
+}
+    */
+
+/***********************************************/
+
+greves:before {
+  display: block;
+  width: 15em;
+  font-weight: bold;
+  font-size: 200%;
+  content: "Historique des grèves";
+  margin: -.75em 0px .50em -.25em;
+  padding: .1em .25em;
+  background-color: #cdf;
+  }
+
+  greves {
+  display: block;
+  margin: 2em 1em;
+  border: 4px solid #cdf;
+  padding: 0px 1em;
+  background-color: white;
+  }
+
+  greve {
+  display: block;
+  margin-bottom: 1em;
+  }
+  
+  date_debut:before {
+  content: "Date debut : ";
+  font-weight: bold;
+  }
+
+  date_debut {
+  display: block;
+  font-size: 150%;
+  }
+
+  date_fin:before {
+    content: "Date fin : ";
+    font-weight: bold;
+    }
+
+  date_fin {
+  display: block;
+  font-size: 150%;
+  }
+
+  cause:before {
+    content: "Cause : ";
+    font-weight: bold;
+    }
+
+  cause {
+  display: block;
+  font-size: 150%;
+  }
+
+
+
+
+/**********************/
+
+
+
+
+#confirmationBaseDon{
+background: rgb(236, 234, 238);
+margin-right:20%;
+margin-left: 10%;
+bottom: -100px;
+height: 80%;
+width: 80%;
+padding: 150px;
+}
+
 
 #conexionDivPrincipale{
   background:  rgb(236, 234, 238);
@@ -497,7 +600,6 @@ h2.titre-liens-articles {
   position: relative;
   height: 80%;
   width: 80%;
-  
   margin-bottom: 10%;
 }
 
