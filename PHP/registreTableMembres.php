@@ -1,7 +1,25 @@
 <?php
+
+if (($_FILES['my_file']['name']!="")){
+  // Where the file is going to be stored
+   $target_dir = "../img/";
+   $file = $_FILES['my_file']['name'];
+   $path = pathinfo($file);
+   $filename = $path['filename'];
+   $ext = $path['extension'];
+   $temp_name = $_FILES['my_file']['tmp_name'];
+   $path_filename_ext = $target_dir.$filename.".".$ext;
+   
+  // Check if file already exists
+  if (file_exists($path_filename_ext)) {
+   echo "Sorry, file already exists.";
+   }else{
+   move_uploaded_file($temp_name,$path_filename_ext);
+   echo "Congratulations! File Uploaded Successfully.";
+   }
+  }
+
 require 'config.php';
-
-
 
 if (!$db_connection) {
  die('Base de donnees pas trouve');
@@ -9,7 +27,7 @@ if (!$db_connection) {
 $subs_prenom = utf8_decode($_POST['prenom']);
 $subs_nom = utf8_decode($_POST['nom']);
 $subs_date = utf8_decode($_POST['datenaissance']);
-$subs_photo = utf8_decode($_POST['photo']);
+$subs_photo = utf8_decode($_POST['my_file']);
 $subs_fontion = utf8_decode($_POST['fonction']);
 
 $db_table_name="membres";
