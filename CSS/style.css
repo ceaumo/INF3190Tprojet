@@ -164,11 +164,9 @@ span.elem-menu>a:hover {
   color: #000;
 }
 
-
 #identifiant-erreur {
   color: red;
 }
-
 
 .titre-liens-org {
   color: #232224;
@@ -300,7 +298,6 @@ td, th {
   width: 100%;
 }
 
-
 div.liens-menu-min>a:link {
   color: #000;
 }
@@ -316,7 +313,6 @@ div.liens-menu-min>a:active {
 div.liens-menu-min>a:hover {
   color: #000;
 }
-
 
 div.cont-langue-minim>a:link {
   color: #000;
@@ -334,23 +330,25 @@ div.cont-langue-minim>a:hover {
   color: #000;
 }
 
-
-.cont-entete-resume{
+.cont-entete-resume {
   padding: 20px 20px 0px 20px;
   margin-bottom: 20px;
- }
- .texte-resume-greve{
+}
+
+.texte-resume-greve {
   padding: 0px 20px 0px 0px !important;
   text-align: justify;
- } 
- .cont-img-greve{
+}
+
+.cont-img-greve {
   padding: 0px 0px 0px 20px !important;
   margin-top: 20px;
- }
- .img-greve{
+}
+
+.img-greve {
   width: 100%;
   height: auto;
- }
+}
 /**Luis -----------     */
 
 
@@ -887,5 +885,44 @@ p.boiteContact {
   
 }
  /*Contact -------------------*/
+
+ 
+.jstree-anchor {
+  margin-top: 5px !important;
+}
+
+#organigramme{
+  margin-bottom: 100px ;
+}
+
+.static, .rotation{
+  height: 256px;
+  position: absolute;
+}
+.salaire{
+  padding: 20px;
+  height: 350px;
+}
+
+.btn-anim{
+  z-index: 1;
+}
+
+#cent-d {
+  display: none;
+}
+
+#cent-d {
+  animation: tournerBillet 0.5s infinite linear;
+}
+
+@keyframes tournerBillet {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
 
 /*Cesar*/

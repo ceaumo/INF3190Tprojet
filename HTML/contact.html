@@ -7,9 +7,13 @@
     <title>Contact</title>
     <link rel="stylesheet" type="text/css" href="../CSS/style.css">
     <link rel="stylesheet" type="text/css" href="../CSS/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="../lib/jstree/themes/default/style.min.css">
+    <script src="../lib/jquery-3.4.1.min.js"></script>
+    <script src="../lib/jstree/jstree.min.js"></script>
+    <script src="../JS/contact.js"></script>
 </head>
 
-<body>
+<body onload="chargerOrganigramme()">
     <div class="container-fluid cont-menu">
         <div class="row menu  menu-complet">
             <div class="cont-logo">
@@ -113,8 +117,14 @@
         </div>
     </div>
 
-    <p class="boiteContact">
-    </p>
+            <p class="boiteContact">
+                    <div>
+                        <button type="button" id="affOrg" onclick="afficherOrganigramme()">Afficher organigramme</button>
+                        <button type="button" id="supprOrg" onclick="cacherOrganigramme()">Supprimer organigramme</button>
+                    </div>
+                    <div id="organigramme" />
+                </p>
+
 
 
     <footer>
