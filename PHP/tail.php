@@ -33,6 +33,13 @@
 						</a>
 					</span>
 				</div>
+				<div class="futurLogoIndex">
+                            <a href="../HTML/futurLogo.html">
+                                <input class="favorite styled"
+                                     type="button"
+                                     value="Futur Logo">
+                                </a>
+                    </div>
 			</div>
 		</div>
 	</footer>

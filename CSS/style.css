@@ -401,15 +401,13 @@ th {
   border-collapse:collapse;
 }
 
-.futurLogoIndex{
-  margin-left: 85%;
-}
+
 
 .futurLogo{
   color: #0f0404; 
-  margin-left: 10%;
-  margin-right: 10%;
-  padding: 10%;
+  margin-left: 20%;
+  margin-right: 50%;
+  padding: 15%;
   background-color:e4e6ee; 
 
 }
@@ -482,36 +480,6 @@ h2.titre-liens-articles {
 
 }
 
-/*Comexion          
-
-liste{
-  width: 500px;
-  left: 150px;
-  position:absolute;
-  background-color: #bb4a4a;
-}
-cause{
-  width: 400px;
-  color:blue;
-  font-size:20pt;
-  background-color: #b10e0e;
-  margin:5px;
-}
-date_debut{
-  width: 400px;
-  color:rgb(32, 190, 85);
-  font-size:20pt;
-  background-color: #b10e0e;
-  margin:5px;
-}
-date_fin{
-  width: 400px;
-  color:rgb(46, 46, 204);
-  font-size:20pt;
-  background-color: #dcf377;
-  margin:5px;
-}
-    */
 
 /***********************************************/
 
@@ -891,8 +859,12 @@ p.boiteContact {
   margin-top: 5px !important;
 }
 
+#organigrammeCentre{
+  margin-left: 10% ;
+}
+
 #organigramme{
-  margin-bottom: 100px ;
+  margin-bottom: 150px ;
 }
 
 .static, .rotation{

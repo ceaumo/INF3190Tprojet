@@ -4,9 +4,12 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>TP1 Sindicat en grève</title>
+    <title>TP2 Sindicat en grève</title>
+    <link rel="icon" href="data:;base64,iVBORw0KGgo=">
     <link rel="stylesheet" type="text/css" href="CSS/style.css">
     <link rel="stylesheet" type="text/css" href="CSS/bootstrap.min.css">
+    <script src="./lib/jquery-3.4.1.min.js"></script>
+    <script src="JS/index.js"></script>
 </head>
 
 <body>
@@ -95,6 +98,14 @@
                 <p id="eslogan">Non à l’esclavage salarié - grève générale!</p>
             </div>
         </div>
+        <div class="row">
+            <button class="btn-anim"  onclick="billetSEnvole()">Voir ce qui arrive à notre salaire</button>
+        </div>
+        <div class="row salaire">
+          <h3>OU EST-IL?</h3>
+          <img id="cent-d" class="rotation" src="./img/100_dol.jpg" alt="Billet 100$"/> 
+          <img class="static" src="./img/100_dol.jpg" alt="Billet 100$"/> 
+        </div>
         <div class="row cont-entete-resume">
             <div class="col-md-12 p-0 text-center">
                 <div>
@@ -163,13 +174,7 @@
                 </map>
             </div>
         </div>
-        <div class="futurLogoIndex">
-        <a href="HTML/futurLogo.html">
-            <input class="favorite styled"
-                 type="button"
-                 value="Futur Logo">
-            </a>
-        </div>
+
         <footer>
             <div class="row cont-pied-page">
                 <div class="col-md-6">
@@ -201,10 +206,17 @@
                     <div>
                         <img class="img-enveloppe" src="img/contact.png" alt="Courriel César Augusto Moreno Agudelo">
                         <span>
-                            <a class="lien-pied-page" href="mailto:cesargon@gmails.com">
+                            <a class="lien-pied-page" href="mailto:ceaumo.1@gmail.com">
                                 César Augusto Moreno Agudelo
                             </a>
                         </span>
+                    </div>
+                    <div class="futurLogoIndex">
+                            <a href="HTML/futurLogo.html">
+                                <input class="favorite styled"
+                                     type="button"
+                                     value="Futur Logo">
+                                </a>
                     </div>
                 </div>
             </div>
