@@ -1,8 +1,8 @@
 <?php
 
 $db_host="192.168.1.76";
-$db_user="ceaumo";
-$db_password="Agente.p1";
+$db_user="xxxxx";
+$db_password="xxxxx";
 $db_name="INF3190TP2";
 
 
